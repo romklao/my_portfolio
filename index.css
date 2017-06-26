@@ -5,7 +5,8 @@
 }
 
 p {
-    line-height: 200%;
+    line-height: 190%;
+    font-family: arial;
 }
 
 #navTitle1, #navTitle2, #navTitle3  {
@@ -121,15 +122,15 @@ p {
     padding: 0;
 }
 
-.skill > div > h1, 
+.skill > div > h2, 
 .portfolioBox > h3,
-.portfolioDiv > div > h1, 
-#contactWrap > div > div > h1 {
-    font-family: Lato;
+.portfolioDiv > div > h2, 
+#contactWrap > div > div > h2 {
+    font-family: arial;
 }
 
-.portfolioDiv > div > h1 {
-    padding: 40px;
+.portfolioDiv > div > h2 {
+    padding: 35px;
 }
 
 #portfolioPageWrap, #contactWrap {
@@ -216,7 +217,7 @@ p {
 }
 
 .icon {
-    width: 45px;
+    width: 40px;
     margin-top: 40px;
     margin-left: 25px;
     margin-right: 25px;
