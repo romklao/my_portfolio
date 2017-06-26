@@ -124,7 +124,7 @@ p {
 .skillImage {
     position: relative;
     margin-bottom: 30px;
-    margin-top: 55px;
+    margin-top: 85px;
 }
 
 .imageLogo {
@@ -166,7 +166,7 @@ p {
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid #77615e;
+    border: 1px solid black;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 17px;
@@ -203,7 +203,8 @@ p {
 
 .linkResume:hover, .link:hover {
     text-decoration: none;
-    background-color: #493120;
+    background-color: grey;
+    border-color: grey;
     color: white;
     cursor: pointer;
 }
@@ -214,7 +215,7 @@ p {
 }
 
 .icon {
-    width: 50px;
+    width: 45px;
     margin-top: 40px;
     margin-left: 25px;
     margin-right: 25px;
