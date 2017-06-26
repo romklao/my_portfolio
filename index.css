@@ -95,7 +95,7 @@
 }
 
 .about, .skillBox {
-    height: 500px;
+    height: 530px;
     border: 1px solid #f2eeed;
     margin: 0;
 }
@@ -216,6 +216,26 @@
     }
     .portfolioPage > div > img {
         max-width: 370px;
+    }
+    .about, .skillBox {
+        height: 590px;
+        border: 1px solid #f2eeed;
+        margin: 0;
+    }
+    .skillBox {
+        padding: 0px;
+        padding-top: 45px;
+    }
+    .portfolioPage > div > img {
+        max-width: 298px;
+    }
+    .profileImage {
+        max-width: 350px;
+        top: 130px;
+        left: 6.3%;
+    }
+    .nameCareer {
+        left: 20%;
     }
 }
 
