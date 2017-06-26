@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+p {
+    line-height: 200%;
+}
 
 #navTitle1, #navTitle2, #navTitle3  {
     color: grey;
@@ -59,7 +62,7 @@
     position: absolute;
     text-align: center;
     padding-top: 100px;
-    width: 90%;
+    width: 95%;
     left: 50%;
     transform: translatex(-50%);
 }
@@ -83,6 +86,10 @@
     font-family: Lato;
 }
 
+.portfolioDiv > div > h1 {
+    padding: 40px;
+}
+
 .imageList {
     display: inline-block;
     text-decoration: none;
@@ -95,7 +102,7 @@
 }
 
 .about, .skillBox {
-    height: 530px;
+    height: 570px;
     border: 1px solid #f2eeed;
     margin: 0;
 }
@@ -134,9 +141,10 @@
 
 .portfolioBox {
     border-top: 1px solid #f2eeed;
-    height: 680px; 
+    height: 780px; 
     padding: 30px;
     background-color: #fcfaf9;
+    text-align: center;
 }
 
 .portfolioBrickPro, .portfolioHomeDecor  {
@@ -144,7 +152,7 @@
 }
 
 .portfolioImg {
-    max-width: 307px;
+    max-width: 330px;
     margin-top: 40px;
     margin-bottom: 55px;
 }
@@ -158,41 +166,44 @@
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid #66524f;
+    border: 1px solid #77615e;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 17px;
     border-radius: 4px;
-    background-color: #604b46;
+    background-color: black;
     margin-top: 20px;
 }
 
 .linkResume {
     position: absolute;
     top: 80%;
+    padding-top: 6px;
+    padding-bottom: 6px; 
     width: 130px;
     left: 50%;   
     transform: translatex(-50%);
 }
 
 .link {
-    margin-top: 39px;
     width: 80px;
-    margin-left: 1px;
-    margin-right: 1px;
 }
 
-.linkBrick {
-    margin-top: 84px;
+.linkLive {
+    position: absolute;
+    top: 86%;
+    left: 28%;
 }
 
-.linkHome {
-    margin-top: 61px;
+.linkGithub {
+    position: absolute;
+    top: 86%;
+    left: 50%;
 }
 
 .linkResume:hover, .link:hover {
     text-decoration: none;
-    background-color: black;
+    background-color: #493120;
     color: white;
     cursor: pointer;
 }
@@ -214,28 +225,25 @@
     .container {
         width: 100%;
     }
-    .portfolioPage > div > img {
-        max-width: 370px;
-    }
     .about, .skillBox {
-        height: 590px;
+        height: 700px;
         border: 1px solid #f2eeed;
         margin: 0;
     }
     .skillBox {
-        padding: 0px;
+        padding: 30px;
         padding-top: 45px;
     }
     .portfolioPage > div > img {
-        max-width: 298px;
+        max-width: 318px;
     }
     .profileImage {
         max-width: 350px;
         top: 130px;
-        left: 6.3%;
+        left: 6.4%;
     }
     .nameCareer {
-        left: 20%;
+        left: 21%;
     }
 }
 
