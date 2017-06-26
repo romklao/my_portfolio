@@ -22,16 +22,16 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav pull-right">
-                        <li><a href="#" id="navTitle1">About <span class="sr-only">(current)</span></a></li>
+                        <li class="linkToAbout"><a href="#" id="navTitle1">About <span class="sr-only">(current)</span></a></li>
                         <li class="linkToPortfolio"><a href="#" id="navTitle2">Portfolio</a></li>
                         <li class="linkToContact"><a href="#" id="navTitle3">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <main>
+        <main id="main">
             <div class="container">
-                <div class="row imagePage">
+                <div class="row landingPage">
                     <div class="col-lg-12 col-sm-12">
                         <img src="images/profileImage2.jpg" class="profileImage">
                         <div class="nameCareer">
@@ -42,15 +42,13 @@
                 </div>
                 <div class="skillPortfolioWrap">
                     <div class="row skill">
-                        <div class="col-lg-12 col-sm-6">
-                            <div class="col-lg-12 col-sm-12">
-                                <h1>ABOUT</h1>
-                            </div>
-                            <div class="col-lg-12 col-sm-12">
+                        <div class="col-lg-6 col-sm-12 about">
+                            <h1>ABOUT</h1>
                             <p class="introduction portfolioText">My name is Romklao and I am a junior web developer. I am comfortable with HTML, CSS, React, Redux, Javascript, Express, Node.js and responsive web applications. What I learned from working as a web developer is we always need to improve and learn new technologies to become more efficient in an evolving environment. Furthermore, we must learn how to find solutions by searching and asking for help from communities such as Stack Overflow. Communities are very helpful in supporting development
                             in such a large ecosystem of technologies.</p>
-                            </div>
-                            <h2>SKILLS</h2>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 skillBox">
+                            <h1>SKILLS</h1>
                             <ul class="skillImage">
                                 <li class="imageList"><img src="images/HTML5_logo.png" class="imageLogo"></li>
                                 <li class="imageList"><img src="images/css_logo.jpg" class="imageLogo"></li>
@@ -60,34 +58,34 @@
                                 <li class="imageList"><img src="images/jquery_logo.png" class="imageLogo"></li>
                                 <li class="imageList"><img src="images/react-logo.png" class="imageLogo"></li>
                                 <li class="imageList"><img src="images/enm.jpg" class="imageLogo"></li>
+                                <a href="" class="linkResume">View Resume</a>
                             </ul>
-                            <a href="" class="linkResume">View Resume</a>
                         </div>
                     </div>
                     <div id="portfolioPageWrap">
-                        <div class="row portfolioPage">
+                        <div class="row portfolioDiv">
                             <div class="col-lg-12 col-sm-12">
                                 <h1>PORTFOLIO</h1>
-                                <h2>BRICK PRO</h2>
-                                <img src="images/brickPro.jpg.png" class="portfolioImg">
-                                <p class="portfolioText">A full-stack app which allows users to search, save favorite Lego items, and find sellers. Developed with HTML, CSS, Javascript, Express, MongoDB and Node.js. Data is retrieved with a Fetch API from Rebrickable API.</p>
-                                <a href="https://blooming-thicket-55082.herokuapp.com/" target="_blank" class="link">Live</a>
-                                <a href="https://github.com/romklao/capstone_lego" target="_blank" class="link">Github</a>
                             </div>
                         </div>
                         <div class="row portfolioPage">
-                            <div class="col-lg-12 col-sm-12">
-                                <h2>HOME DECORATION</h2>
+                            <div class="col-lg-4 col-sm-12 portfolioBox portfolioBrickPro">
+                                <h3>BRICK PRO</h3>
+                                <img src="images/brickPro.jpg.png" class="portfolioImg">
+                                <p class="portfolioText">A full-stack app which allows users to search, save favorite Lego items, and find sellers. Developed with HTML, CSS, Javascript, Express, MongoDB and Node.js. Data is retrieved with a Fetch API from Rebrickable API.</p>
+                                <a href="https://blooming-thicket-55082.herokuapp.com/" target="_blank" class="link linkBrick">Live</a>
+                                <a href="https://github.com/romklao/capstone_lego" target="_blank" class="link linkBrick">Github</a>
+                            </div>
+                            <div class="col-lg-4 col-sm-12 portfolioBox portfolioHomeDecor">
+                                <h3>HOME DECORATION</h3>
                                 <img src="images/decor.png" class="portfolioImg">
                                 <p class="portfolioText">A full-stack app created with HTML, CSS, Javascript, React, Redux Express, MongoDB and Node.js. Data is retrieved with a Fetch API from Amazon API. It enables searching for decorating products, comparing prices, and storing favorite items. 
                                 </p>
-                                <a href="" class="link">Live</a>
-                                <a href="" class="link">Github</a>
+                                <a href="" class="link linkHome">Live</a>
+                                <a href="" class="link linkHome">Github</a>
                             </div>
-                        </div>
-                        <div class="row portfolioPage">
-                            <div class="col-lg-12 col-sm-12">
-                                <h2>ROMANTIC PLACES</h2>
+                            <div class="col-lg-4 col-sm-12 portfolioBox">
+                                <h3>ROMANTIC PLACES</h3>
                                 <img src="images/searchPlaces.png" class="portfolioImg">
                                 <p class="portfolioText">A frontend only project developed with HTML, CSS and Javascript. Integrates the Foursquare API and Google Maps API to generate the data and location of places. Data is retrieved with AJAX (Asynchronous JavaScript And XML) which offers response data in the JSONP format.</p>
                                 <a href="https://romklao.github.io/capstone_api/" target="_blank" class="link">Live</a>
