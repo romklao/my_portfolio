@@ -124,9 +124,10 @@
     max-width: 60px;
 }
 
-#portfolioPageWrap {
+#portfolioPageWrap, #contactWrap {
     margin-top: 120px;
     padding-top: 10px;
+    margin-bottom: 120px;
     border: 1px solid #f2eeed;
     background-color: #fcfaf9;
 }
@@ -157,12 +158,12 @@
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid #3f89c1;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    border: 1px solid #66524f;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 17px;
     border-radius: 4px;
-    background-color: #3f89c1;
+    background-color: #604b46;
     margin-top: 20px;
 }
 
@@ -191,9 +192,21 @@
 
 .linkResume:hover, .link:hover {
     text-decoration: none;
-    background-color: #0b3163;
+    background-color: black;
     color: white;
     cursor: pointer;
+}
+
+#contactWrap {
+    height: 300px;
+    padding-top: 50px;
+}
+
+.icon {
+    width: 50px;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 
