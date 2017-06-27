@@ -5,7 +5,7 @@
 }
 
 p {
-    line-height: 190%;
+    line-height: 180%;
     font-family: arial;
 }
 
@@ -84,13 +84,16 @@ p {
 }
 
 .about, .skillBox {
-    height: 570px;
+    height: 550px;
     border: 1px solid #f2eeed;
     margin: 0;
 }
 
 .introduction {
     margin-top: 55px;
+    text-align: left;
+    font-size: 17px;
+    padding-left: 10px;
 }
 
 .about {
@@ -113,6 +116,10 @@ p {
     max-width: 60px;
 }
 
+.imageSkillCss {
+    max-width: 45px;
+}
+
 
 .portfolioPage, .skill, #contactWrap {
     text-align: center;
@@ -129,40 +136,47 @@ p {
     font-family: arial;
 }
 
-.portfolioDiv > div > h2 {
-    padding: 35px;
+.portfolioDiv {
+    padding: 20px;
 }
 
 #portfolioPageWrap, #contactWrap {
     margin-top: 120px;
-    padding-top: 10px;
+    padding: 10px;
     margin-bottom: 120px;
     border: 1px solid #f2eeed;
     background-color: #fcfaf9;
 }
 
 .portfolioBox {
-    border-top: 1px solid #f2eeed;
-    height: 780px; 
-    padding: 30px;
-    background-color: #fcfaf9;
+/*    border-top: 1px solid #f2eeed;
+*/    height: 660px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    /*background-color: #ede3e1;*/ /*fcfaf9*/
     text-align: center;
 }
 
 .portfolioBrickPro, .portfolioHomeDecor  {
-    border-right: 1px solid #f2eeed;
+    /*border-right: 1px solid #f2eeed;*/
 }
 
 .portfolioImg {
-    max-width: 330px;
-    margin-top: 40px;
-    margin-bottom: 55px;
-}
+    max-width: 100%;
+    margin-top: 35px;
+/*    margin-bottom: 40px;
+*/}
 
 .portfolioText {
     text-align: left;
-    font-size: 17px;
-}
+    height: 270px;
+    font-size: 16px;
+    padding-left: 11px;
+    background-color: white;
+    padding-top: 30px;
+/*    padding-bottom: 40px;
+*/}
+
 
 .linkResume, .link {
     display: inline-block;
@@ -188,25 +202,27 @@ p {
 }
 
 .link {
-    width: 80px;
+    width: 70px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .linkLive {
     position: absolute;
-    top: 86%;
-    left: 28%;
+    top: 88%;
+    left: 29%;
 }
 
 .linkGithub {
     position: absolute;
-    top: 86%;
-    left: 50%;
+    top: 88%;
+    left: 49%;
 }
 
 .linkResume:hover, .link:hover {
     text-decoration: none;
-    background-color: grey;
-    border-color: grey;
+    background-color: #543f3a;
+    border-color: #513724;
     color: white;
     cursor: pointer;
 }
@@ -217,7 +233,7 @@ p {
 }
 
 .icon {
-    width: 40px;
+    width: 35px;
     margin-top: 40px;
     margin-left: 25px;
     margin-right: 25px;

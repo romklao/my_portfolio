@@ -5,7 +5,7 @@ function moveToAbout() {
         event.preventDefault();
     $('html, body').animate({
         scrollTop: parseInt($(".skillPortfolioWrap").offset().top)
-    }, 1200);
+    }, 1000);
   });
 }
 
