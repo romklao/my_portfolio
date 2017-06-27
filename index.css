@@ -153,41 +153,35 @@ p {
 */    height: 660px; 
     padding-left: 20px;
     padding-right: 20px;
-    /*background-color: #ede3e1;*/ /*fcfaf9*/
     text-align: center;
-}
-
-.portfolioBrickPro, .portfolioHomeDecor  {
-    /*border-right: 1px solid #f2eeed;*/
 }
 
 .portfolioImg {
     max-width: 100%;
     margin-top: 35px;
-/*    margin-bottom: 40px;
-*/}
+}
 
 .portfolioText {
     text-align: left;
     height: 270px;
     font-size: 16px;
     padding-left: 11px;
+    padding-right: 5px;
     background-color: white;
     padding-top: 30px;
-/*    padding-bottom: 40px;
-*/}
+}
 
 
 .linkResume, .link {
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid black;
+    border: 1px solid #543f3a;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 17px;
     border-radius: 4px;
-    background-color: black;
+    background-color: #543f3a;
     margin-top: 20px;
 }
 
@@ -221,8 +215,8 @@ p {
 
 .linkResume:hover, .link:hover {
     text-decoration: none;
-    background-color: #543f3a;
-    border-color: #513724;
+    background-color: black;
+    border-color: black;
     color: white;
     cursor: pointer;
 }
