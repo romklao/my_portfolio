@@ -205,13 +205,13 @@ p {
 .linkLive {
     position: absolute;
     top: 85%;
-    left: 29%;
+    left: 30%;
 }
 
 .linkGithub {
     position: absolute;
     top: 85%;
-    left: 49%;
+    left: 50%;
 }
 
 .linkResume:hover, .link:hover {
@@ -286,12 +286,6 @@ p {
     .portfolioBox > h3 {
         margin-top: 50px;
     }
-<<<<<<< HEAD
-    .linkLive {
-        left: 37%;
-    }
-=======
->>>>>>> gh-pages
 }
 
 
