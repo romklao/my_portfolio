@@ -90,10 +90,11 @@ p {
 }
 
 .introduction {
-    margin-top: 55px;
+    margin-top: 15px;
     text-align: left;
     font-size: 17px;
-    padding-left: 10px;
+    padding: 35px 25px 35px 25px;
+    background-color: white;
 }
 
 .about {
@@ -176,12 +177,12 @@ p {
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid #543f3a;
+    border: 1px solid #5e4736;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 17px;
     border-radius: 4px;
-    background-color: #543f3a;
+    background-color: #5e4736;
     margin-top: 20px;
 }
 
@@ -232,6 +233,7 @@ p {
     margin-left: 25px;
     margin-right: 25px;
 }
+
 
 
 @media (max-width: 500px) {
