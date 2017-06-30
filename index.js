@@ -47,6 +47,7 @@ function scrollNavChange(){
     }
 }
 
+
 $(function() {
     moveToAbout();
     moveToPortfolio();

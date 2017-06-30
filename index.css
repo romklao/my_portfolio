@@ -263,6 +263,12 @@ p {
     .linkLive, .linkGithub {
         top: 83%;
     }
+<<<<<<< HEAD
+=======
+    .linkGithub {
+        left: 50%;
+    }
+>>>>>>> gh-pages
     .portfolioBox {
         border-top: 1px solid #f2eeed;
         height: 700px;
@@ -280,9 +286,12 @@ p {
     .portfolioBox > h3 {
         margin-top: 50px;
     }
+<<<<<<< HEAD
     .linkLive {
         left: 37%;
     }
+=======
+>>>>>>> gh-pages
 }
 
 
