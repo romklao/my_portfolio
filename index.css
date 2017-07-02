@@ -278,7 +278,7 @@ p {
 @media (min-width: 510px) and (max-width: 1190px) {
     .portfolioBox {
         border-top: 1px solid #f2eeed;
-        height: 770px;
+        height: 720px;
     }
     .portfolioBox > h3 {
         margin-top: 50px;
