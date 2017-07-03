@@ -14,7 +14,6 @@ p {
     font-size: 16px;    
 }
 
-
 #navTitle1:hover, #navTitle2:hover, #navTitle3:hover  {
     color: black;    
 }
@@ -57,7 +56,6 @@ p {
     margin: 0;
     padding: 0;
 }
-
 
 .skillPortfolioWrap {
     position: absolute;
@@ -108,9 +106,15 @@ p {
 }
 
 .skillImageDiv {
-    position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-top: 95px;
+    padding: 0;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.skillImageDiv2 {
+    padding-left: 40px;
 }
 
 .imageSkill {
@@ -164,14 +168,17 @@ p {
 
 .portfolioText {
     text-align: left;
-    height: 270px;
     font-size: 16px;
     padding-left: 11px;
     padding-right: 5px;
-    background-color: white;
     padding-top: 30px;
+    margin-bottom: 20px;
 }
 
+.portfolioTextBtn {
+    background-color: white;
+    padding-bottom: 50px;
+}
 
 .linkResume, .link {
     display: inline-block;
@@ -202,18 +209,6 @@ p {
     padding-bottom: 4px;
 }
 
-.linkLive {
-    position: absolute;
-    top: 85%;
-    left: 30%;
-}
-
-.linkGithub {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-}
-
 .linkResume:hover, .link:hover {
     text-decoration: none;
     background-color: black;
@@ -241,13 +236,28 @@ p {
         width: 100%;
     }
     .about, .skillBox {
-        height: 800px;
         border: 1px solid #f2eeed;
         margin: 0;
     }
+    .about {
+        padding: 45px 20px 40px 20px;
+        height: 700px;
+    }
     .skillBox {
-        padding: 30px;
+        padding: 20px;
         padding-top: 45px;
+        height: 490px;
+    }
+    .skillImageDiv, .skillImageDiv2 {
+        padding: 0px;
+    }
+    .skillImageDiv {
+        margin-top: 60px;
+    }
+    .imageList {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 0px;
     }
     .portfolioPage > div > img {
         max-width: 318px;

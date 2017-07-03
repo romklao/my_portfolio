@@ -40,7 +40,7 @@ function scrollNavChange(){
               $(".navbar").css({'background': 'white', 
                 'border-bottom': '1px solid #f7f4f4'});
             } else {
-              $('.navbar-default').css({'background': 'url(images/background2.jpg)', 
+              $('.navbar-default').css({'background': 'url(images/background2.jpg) fixed no-repeat', 
                 'background-size': 'cover', 'border-bottom': 'none'});
             }
         });
