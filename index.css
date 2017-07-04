@@ -13,8 +13,10 @@ p {
     color: black;
 }
 
-#navTitle1:hover, #navTitle2:hover, #navTitle3:hover  {
-    color: black;    
+.active {
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
 }
 
 .landingPage {
@@ -292,6 +294,7 @@ p {
     .portfolioBox > h3 {
         margin-top: 50px;
     }
+
 }
 
 

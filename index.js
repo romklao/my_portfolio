@@ -43,10 +43,7 @@ function scrollNavChange(){
             } else {
                 $('.navbar-default').css({'background': 'url(images/background2.jpg) fixed no-repeat', 
                     'background-size': 'cover', 'border-bottom': 'none'});
-                $('.navLink').css({'color': 'white'});
-                $('.navLink').hover(function() {
-                    $(this).css({'color': 'grey'});
-                });
+                $('.navLink').css({'color': 'grey'});
             }
         });
     }
