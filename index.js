@@ -38,10 +38,15 @@ function scrollNavChange(){
 
             if(scroll_start > offset.top) {
               $(".navbar").css({'background': 'white', 
-                'border-bottom': '1px solid #f7f4f4'});
+                'border-bottom': '1px solid #f7f4f4', 'color': 'black'});
+              $('.navLink').css({'color': 'black'});
             } else {
               $('.navbar-default').css({'background': 'url(images/background2.jpg) fixed no-repeat', 
                 'background-size': 'cover', 'border-bottom': 'none'});
+              $('.navLink').css({'color': 'white'});
+              $('.navLink').hover(function() {
+                $(this).css({'color': 'grey'});
+              });
             }
         });
     }

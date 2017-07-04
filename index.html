@@ -22,9 +22,18 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav pull-right">
-                        <li class="linkToAbout"><a href="#" id="navTitle1">About <span class="sr-only">(current)</span></a></li>
-                        <li class="linkToPortfolio"><a href="#" id="navTitle2">Portfolio</a></li>
-                        <li class="linkToContact"><a href="#" id="navTitle3">Contact</a></li>
+                        <li class="linkToAbout">
+                            <a href="#" class="hidden-xs navLink">About <span class="sr-only">(current)</span></a>
+                            <a href="#" class="visible-xs navLink" data-toggle="collapse" data-target=".navbar-collapse">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="linkToPortfolio">
+                            <a href="#" class="hidden-xs navLink">Portfolio</a>
+                            <a href="#" class="visible-xs navLink" data-toggle="collapse" data-target=".navbar-collapse" id="navTitle2">Portfolio</a>
+                        </li>
+                        <li class="linkToContact">
+                            <a href="#" class="hidden-xs navLink">Contact</a>
+                            <a href="#" class="visible-xs navLink" data-toggle="collapse" data-target=".navbar-collapse">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
