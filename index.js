@@ -28,25 +28,25 @@ function moveToContact() {
 }
 
 function scrollNavChange(){         
-   var scroll_start = 0;
-   var startchange = $('.skillPortfolioWrap');
-   var offset = startchange.offset();
+    var scroll_start = 0;
+    var startchange = $('.skillPortfolioWrap');
+    var offset = startchange.offset();
 
     if (startchange.length) {
         $(document).scroll(function() { 
             scroll_start = $(this).scrollTop();
 
             if(scroll_start > offset.top) {
-              $(".navbar").css({'background': 'white', 
-                'border-bottom': '1px solid #f7f4f4', 'color': 'black'});
-              $('.navLink').css({'color': 'black'});
+                $(".navbar").css({'background': 'white', 
+                    'border-bottom': '1px solid #f7f4f4', 'color': 'black'});
+                $('.navLink').css({'color': 'black'});
             } else {
-              $('.navbar-default').css({'background': 'url(images/background2.jpg) fixed no-repeat', 
-                'background-size': 'cover', 'border-bottom': 'none'});
-              $('.navLink').css({'color': 'white'});
-              $('.navLink').hover(function() {
-                $(this).css({'color': 'grey'});
-              });
+                $('.navbar-default').css({'background': 'url(images/background2.jpg) fixed no-repeat', 
+                    'background-size': 'cover', 'border-bottom': 'none'});
+                $('.navLink').css({'color': 'white'});
+                $('.navLink').hover(function() {
+                    $(this).css({'color': 'grey'});
+                });
             }
         });
     }
