@@ -14,8 +14,8 @@ p {
 }
 
 .active {
-    border: 1px solid lightgrey;
-    background-color: white;
+    border: 1px solid #f8f8f8;
+    background-color: #f8f8f8;
     color: grey;
 }
 
