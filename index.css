@@ -31,11 +31,13 @@ p {
 .navLinkScrolled {
     color: black;
     font-size: 16px !important;
+    font-weight: bold !important;
 }
 
 .navLinkStart {
     color: white; 
     font-size: 16px !important;
+    font-weight: bold !important;
 }
 
 .navLinkScrolled:hover {
