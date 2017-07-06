@@ -1,26 +1,70 @@
 * {
     box-sizing: border-box;
-    font-family: Lato;        
+    font-family: Poppins;        
     margin: 0;
 }
 
 p {
     line-height: 180%;
-    font-family: arial;
-}
-
-.navLinkActive {
-    color: black;
 }
 
 .active {
-    border: 1px solid #f8f8f8;
-    background-color: #f8f8f8;
-    color: grey;
+    color: black;
+    font-size: 15px;
+}
+/*.navLink {
+    font-size: 16px;
+}*/
+
+.navStart {
+    background: url(images/nature.jpg) fixed no-repeat; 
+    background-size: cover;
+    border-bottom: none;
 }
 
-.landingPage {
-    background: url(images/background2.jpg) no-repeat fixed;
+.navScrolled {
+    background-color: white;
+    border-bottom: 1px solid #f7f4f4;
+}
+
+.navLinkScrolled {
+    color: black;
+    font-size: 16px !important;
+}
+
+.navLinkStart {
+    color: white; 
+    font-size: 16px !important;
+}
+
+.navLinkScrolled:hover {
+    color: black;
+    background-color: transparent !important;
+    border-bottom: 2px solid black !important;
+}
+
+.navLinkStart:hover {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 2px solid white !important;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: lightgrey;
+    width: 20px;
+}
+
+.navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-toggle, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+    border: 1px solid lightgrey;
+}
+
+#landingPage {
+    background: url(images/nature.jpg) no-repeat fixed;
     background-size: cover;
     height: 670px;
 
@@ -41,8 +85,8 @@ p {
     position: absolute;
     text-align: center;
     top: 555px;
-    left: 5.5%;
-    color: white;
+    left: 4.5%;
+    color: #e6ee9c;
     font-size: 18px;
 }
 
@@ -131,7 +175,6 @@ p {
     text-align: center;
     margin-top: 20px;
     color: black;
-    font-family: Lato;
     padding: 0;
 }
 
@@ -139,7 +182,7 @@ p {
 .portfolioBox > h3,
 .portfolioDiv > div > h2, 
 #contactWrap > div > div > h2 {
-    font-family: arial;
+    font-family: Poppins;
 }
 
 .portfolioDiv {
@@ -221,6 +264,8 @@ p {
 #contactWrap {
     height: 300px;
     padding-top: 50px;
+    background-color: #fcfaf9;
+    border: 1px solid #f2eeed;
 }
 
 .icon {
@@ -230,6 +275,13 @@ p {
     margin-right: 25px;
 }
 
+.dot{
+  width:35px;
+  height:35px;
+  position:absolute;
+  background: url(images/leaves.png);
+  background-size: 100% 100%;
+}
 
 
 @media (max-width: 500px) {
@@ -269,7 +321,7 @@ p {
         left: 6.4%;
     }
     .nameCareer {
-        left: 21%;
+        left: 17.5%;
     }
     .linkLive, .linkGithub {
         top: 83%;
