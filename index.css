@@ -8,6 +8,11 @@ p {
     line-height: 180%;
 }
 
+a:focus {
+    color: green;
+    text-decoration: none;
+}
+
 .active {
     color: black;
     font-size: 15px;
@@ -80,21 +85,25 @@ p {
     -o-background-size: cover;
 }
 
-.profileImage {
+.imageName {
     position: absolute;
-    max-width: 125px;
+    text-align: center;
+    top: 103%;
+/*    width: 85%;
+*/    left: 50%;
+    transform: translatex(-50%);
+}
+
+.profileImage {
+    max-width: 360px;
     border-radius: 50%;
-    top: 410px;
-    left: 9.5%;
+    margin-top: 15px;
 }
 
 .nameCareer {
-    position: absolute;
-    text-align: center;
-    top: 555px;
-    left: 4.5%;
-    color: #e6ee9c;
+    color: black;
     font-size: 18px;
+    margin-top: 20px;
 }
 
 .name {
@@ -112,8 +121,9 @@ p {
 .skillPortfolioWrap {
     position: absolute;
     text-align: center;
-    padding-top: 100px;
-    width: 95%;
+    background-color: white; /*#BFCD78*/
+    width: 100%;
+    top: 200%;
     left: 50%;
     transform: translatex(-50%);
 }
@@ -130,13 +140,13 @@ p {
 }
 
 .skill {
-    background-color: #fcfaf9;
-}
+/*    background-color: #BFCD78;
+*/}
 
 .about, .skillBox {
     height: 550px;
-    border: 1px solid #f2eeed;
-    margin: 0;
+/*    border: 1px solid #f2eeed;
+*/    margin: 0;
 }
 
 .introduction {
@@ -201,7 +211,7 @@ p {
     padding: 10px;
     margin-bottom: 120px;
     border: 1px solid #f2eeed;
-    background-color: #fcfaf9;
+    background-color: #8C7647;
 }
 
 .portfolioBox {
@@ -271,7 +281,7 @@ p {
 #contactWrap {
     height: 300px;
     padding-top: 50px;
-    background-color: #fcfaf9;
+    background-color: #4D6625;
     border: 1px solid #f2eeed;
 }
 
