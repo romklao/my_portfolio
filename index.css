@@ -2,10 +2,12 @@
     box-sizing: border-box;
     font-family: Poppins;        
     margin: 0;
+    padding: 0; 
 }
 
 p {
-    line-height: 180%;
+    line-height: 160%;
+    font-size: 15px;
 }
 
 a:focus {
@@ -29,26 +31,26 @@ a:focus {
 }
 
 .navScrolled {
-    background-color: white;
-    border-bottom: 1px solid #f7f4f4;
-}
+    background-color: #00251a;
+/*    border-bottom: 1px solid #f7f4f4;
+*/}
 
 .navLinkScrolled {
-    color: black;
-    font-size: 16px !important;
+    color: white;
+    font-size: 15px !important;
     font-weight: bold !important;
 }
 
 .navLinkStart {
     color: white; 
-    font-size: 16px !important;
+    font-size: 15px !important;
     font-weight: bold !important;
 }
 
 .navLinkScrolled:hover {
-    color: black;
+    color: white;
     background-color: transparent !important;
-    border-bottom: 2px solid black !important;
+    border-bottom: 2px solid white !important;
 }
 
 .navLinkStart:hover {
@@ -75,39 +77,13 @@ a:focus {
     background: url(images/nature.jpg) fixed no-repeat;
     background-size: cover;
     height: 670px;
-/*    width: 100%;
-*/    margin: 0;
+    margin: 0;
     overflow: hidden;
 
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
-
-.imageName {
-    position: absolute;
-    text-align: center;
-    top: 103%;
-/*    width: 85%;
-*/    left: 50%;
-    transform: translatex(-50%);
-}
-
-.profileImage {
-    max-width: 360px;
-    border-radius: 50%;
-    margin-top: 15px;
-}
-
-.nameCareer {
-    color: black;
-    font-size: 18px;
-    margin-top: 20px;
-}
-
-.name {
-    font-size: 24px;
 }
 
 .container {
@@ -118,14 +94,70 @@ a:focus {
     padding: 0;
 }
 
+.aboutTitle {
+    text-align: center;
+}
+
+.aboutTitle > div {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutTitle > div > h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.imageName {
+    text-align: center;
+}
+
+.name {
+    margin-bottom: 20px;
+    margin-top: 27px;
+}
+
+.aboutText {
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.aboutText > div {
+}
+
+.profileImage {
+    max-width: 360px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.nameCareer {
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.skillBox {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.skillImageDiv {
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
 .skillPortfolioWrap {
-    position: absolute;
     text-align: center;
     background-color: white; /*#BFCD78*/
     width: 100%;
-    top: 200%;
-    left: 50%;
-    transform: translatex(-50%);
 }
 
 .row {
@@ -135,71 +167,25 @@ a:focus {
 .imageList {
     display: inline-block;
     text-decoration: none;
-    margin-left: 15px;
-    margin-right: 60px;
-}
-
-.skill {
-/*    background-color: #BFCD78;
-*/}
-
-.about, .skillBox {
-    height: 550px;
-/*    border: 1px solid #f2eeed;
-*/    margin: 0;
-}
-
-.introduction {
-    margin-top: 15px;
-    text-align: left;
-    font-size: 17px;
-    padding: 35px 20px 35px 20px;
-    background-color: white;
-}
-
-.about {
-    border-right: none;
-    padding: 45px 40px 40px 40px;
-}
-
-.skillBox {
-    padding: 45px 35px 35px 35px;
-
-}
-
-.skillImageDiv {
-    margin-bottom: 40px;
-    margin-top: 95px;
-    padding: 0;
-    text-align: center;
-    padding-left: 40px;
-}
-
-.skillImageDiv2 {
-    padding-left: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .imageSkill {
-    max-width: 60px;
+    max-width: 42px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .imageSkillCss {
-    max-width: 45px;
+    max-width: 30px;
 }
 
-
-.portfolioPage, .skill, #contactWrap {
+.portfolioPage, #contactWrap {
     text-align: center;
     margin-top: 20px;
     color: black;
     padding: 0;
-}
-
-.skill > div > h2, 
-.portfolioBox > h3,
-.portfolioDiv > div > h2, 
-#contactWrap > div > div > h2 {
-    font-family: Poppins;
 }
 
 .portfolioDiv {
@@ -207,11 +193,11 @@ a:focus {
 }
 
 #portfolioPageWrap, #contactWrap {
-    margin-top: 120px;
+    margin-top: 40px;
     padding: 10px;
     margin-bottom: 120px;
     border: 1px solid #f2eeed;
-    background-color: #8C7647;
+    background-color: #4D6625;
 }
 
 .portfolioBox {
@@ -237,8 +223,8 @@ a:focus {
 }
 
 .portfolioTextBtn {
-    background-color: white;
-    padding-bottom: 50px;
+/*    background-color: white;
+*/    padding-bottom: 50px;
 }
 
 .linkResume, .link {
@@ -254,7 +240,7 @@ a:focus {
     margin-top: 20px;
 }
 
-.linkResume {
+/*.linkResume {
     position: absolute;
     top: 80%;
     padding-top: 6px;
@@ -262,7 +248,7 @@ a:focus {
     width: 130px;
     left: 50%;   
     transform: translatex(-50%);
-}
+}*/
 
 .link {
     width: 70px;
@@ -305,40 +291,28 @@ a:focus {
     .container {
         width: 100%;
     }
-    .about, .skillBox {
-        border: 1px solid #f2eeed;
-        margin: 0;
-    }
-    .about {
-        padding: 45px 20px 40px 20px;
-        height: 700px;
-    }
-    .skillBox {
-        padding: 20px;
-        padding-top: 45px;
-        height: 490px;
-    }
-    .skillImageDiv, .skillImageDiv2 {
-        padding: 0px;
-    }
-    .skillImageDiv {
-        margin-top: 60px;
-    }
-    .imageList {
-        margin-right: 20px;
-        margin-left: 20px;
-        padding: 0px;
-    }
     .portfolioPage > div > img {
         max-width: 318px;
     }
-    .profileImage {
-        max-width: 350px;
-        top: 130px;
-        left: 6.4%;
+    .aboutText {
+        width: 95%;
     }
-    .nameCareer {
-        left: 17.5%;
+    .skillBox {
+        top: 205%;
+        width: 100%;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    .imageSkill {
+        width: 35px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .imageSkillCss {
+        width: 25px;
+    }
+    .imageList {
+        margin: 0;
     }
     .linkLive, .linkGithub {
         top: 83%;
