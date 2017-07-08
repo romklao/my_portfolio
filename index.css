@@ -2,12 +2,17 @@
     box-sizing: border-box;
     font-family: Poppins;        
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
-p {
-    line-height: 160%;
-    font-size: 15px;
+p{
+    line-height: 180%;
+    color: black;
+    font-size: 17px;
+}
+
+h1, h2, h3 {
+    color: black;    
 }
 
 a:focus {
@@ -19,9 +24,6 @@ a:focus {
     color: black;
     font-size: 15px;
 }
-/*.navLink {
-    font-size: 16px;
-}*/
 
 .navStart {
     background: url(images/nature.jpg) fixed no-repeat; 
@@ -59,6 +61,30 @@ a:focus {
     border-bottom: 2px solid white !important;
 }
 
+.activeStart {
+    color: white ; 
+    background-color: transparent !important;
+    font-size: 15px !important;
+}
+
+.activeScrolled {
+    background-color: #00251a;
+    color: white; 
+    font-size: 15px !important;
+}
+
+.activeScrolled:hover, .activeStart:focus {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 1px solid white !important;
+}
+
+.activeStart:hover, .activeStart:focus {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 1px solid white !important;
+}
+
 .navbar-toggle .icon-bar {
     background-color: lightgrey;
     width: 20px;
@@ -79,7 +105,6 @@ a:focus {
     height: 670px;
     margin: 0;
     overflow: hidden;
-
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -106,7 +131,8 @@ a:focus {
 .aboutTitle > div > h1 {
     margin: 0;
     padding: 0;
-    margin-top: 30px;
+    margin-top: 70px;
+    font-weight: bold;
 }
 
 .imageName {
@@ -116,16 +142,14 @@ a:focus {
 .name {
     margin-bottom: 20px;
     margin-top: 27px;
+    font-weight: bold;
 }
 
 .aboutText {
     position: relative;
-    width: 70%;
-    left: 50%;
+    width: 65%;
+    left: 52%;
     transform: translatex(-50%);
-}
-
-.aboutText > div {
 }
 
 .profileImage {
@@ -148,20 +172,14 @@ a:focus {
     transform: translatex(-50%);
 }
 
+.skillBox > div > h3 {
+    font-weight: bold;    
+}
+
 .skillImageDiv {
     padding: 0;
     text-align: center;
     margin-top: 30px;
-}
-
-.skillPortfolioWrap {
-    text-align: center;
-    background-color: white; /*#BFCD78*/
-    width: 100%;
-}
-
-.row {
-    margin: 0;
 }
 
 .imageList {
@@ -181,7 +199,72 @@ a:focus {
     max-width: 30px;
 }
 
-.portfolioPage, #contactWrap {
+.portfolioTitle {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0;
+/*    margin-bottom: -15px;
+*/}
+
+.portfolioTitle > div > h1 {
+    background-color: #91a375;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+}
+
+.row {
+    margin: 0;
+}
+
+.portfolioWrap {
+    text-align: center;
+    background-color: #647744;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.portfolioWrap > div > h2 {
+    font-weight: bold;
+}
+
+.brickproText {
+    position: relative;
+    width: 60%;
+    text-align: left;
+    margin-top: 20px;
+    left: 52%;
+    transform: translatex(-50%);
+}
+
+.bridgeImage {
+    width: 55%;
+}
+
+.skillPortfolioWrap {
+    text-align: center;
+    background-color: white; /*#BFCD78*/
+    width: 100%;
+}
+
+.liveGithub {
+    text-align: center;
+}
+
+/*.liveGithub > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}*/
+
+
+
+/*.portfolioPage, #contactWrap {
     text-align: center;
     margin-top: 20px;
     color: black;
@@ -190,17 +273,17 @@ a:focus {
 
 .portfolioDiv {
     padding: 20px;
-}
+}*/
 
-#portfolioPageWrap, #contactWrap {
+/*#portfolioPageWrap, #contactWrap {
     margin-top: 40px;
     padding: 10px;
     margin-bottom: 120px;
     border: 1px solid #f2eeed;
     background-color: #4D6625;
-}
+}*/
 
-.portfolioBox {
+/*.portfolioBox {
     height: 660px; 
     padding-left: 20px;
     padding-right: 20px;
@@ -220,24 +303,24 @@ a:focus {
     padding-right: 5px;
     padding-top: 30px;
     margin-bottom: 20px;
-}
+}*/
 
-.portfolioTextBtn {
-/*    background-color: white;
-*/    padding-bottom: 50px;
-}
+/*.portfolioTextBtn {
+   padding-bottom: 50px;
+}*/
 
-.linkResume, .link {
+.link {
+    position: relative;
     display: inline-block;
     text-decoration: none;
+    text-align: center;
     color: white;
-    border: 1px solid #5e4736;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 17px;
-    border-radius: 4px;
-    background-color: #5e4736;
+    font-size: 20px;
+    font-weight: bold;
     margin-top: 20px;
+    width: 78px;
+    left: 39%;
+    transform: translatex(-50%);
 }
 
 /*.linkResume {
@@ -250,18 +333,11 @@ a:focus {
     transform: translatex(-50%);
 }*/
 
-.link {
-    width: 70px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-
-.linkResume:hover, .link:hover {
+.link:hover {
     text-decoration: none;
-    background-color: black;
-    border-color: black;
     color: white;
     cursor: pointer;
+    border-bottom: 2px solid white;
 }
 
 #contactWrap {
@@ -295,13 +371,13 @@ a:focus {
         max-width: 318px;
     }
     .aboutText {
-        width: 95%;
+        width: 90%;
+        left: 53%;
+        transform: translatex(-50%);
     }
     .skillBox {
-        top: 205%;
         width: 100%;
-        left: 50%;
-        transform: translatex(-50%);
+        left: 54%;
     }
     .imageSkill {
         width: 35px;

@@ -29,7 +29,7 @@ function moveToContact() {
 
 function scrollNavChange(){         
     var scroll_start = 0;
-    var startchange = $('.skillPortfolioWrap');
+    var startchange = $('.portfolioTitle');
     var offset = startchange.offset();
 
     if (startchange.length) {
@@ -42,20 +42,17 @@ function scrollNavChange(){
                 $('.navLink').toggleClass('navLinkStart', false);
                 $('.navLink').toggleClass('navLinkScrolled', true);
 
-                $('.active').css({'color': 'black', 'font-size': '15px'});
-                $('.active').hover(function(){
-                    $(this).css('color', 'grey');
-                });
+                $('.active').toggleClass('activeStart', true);
+                $('.active').toggleClass('activeScrolled', false);
+
             } else {
                 $('.navbar').toggleClass('navStart', true);
                 $('.navbar').toggleClass('navScrolled', false);
                 $('.navLink').toggleClass('navLinkStart', true);
                 $('.navLink').toggleClass('navLinkScrolled', false);
 
-                $('.active').css({'color': 'white', 'font-size': '15px'});
-                $('.active').hover(function(){
-                    $(this).css('color', 'grey');
-                });
+                $('.active').toggleClass('activeScrolled', true);
+                $('.active').toggleClass('activeStart', false);
             }
         });
     }
