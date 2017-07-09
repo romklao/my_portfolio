@@ -122,19 +122,21 @@ a:focus {
     padding: 0;
 }
 
-.aboutTitle {
+#aboutTitle {
     text-align: center;
 }
 
-.aboutTitle > div {
-    margin-top: 70px;
+#aboutTitle > div {
+    background-color: #00251a;
 }
 
-.aboutTitle > div > h1 {
+#aboutTitle > div > h2 {
     margin: 0;
     padding: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .imageName {
@@ -157,7 +159,7 @@ a:focus {
 .profileImage {
     max-width: 360px;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .skillBox {
@@ -208,20 +210,16 @@ a:focus {
 .portfolioTitle > div {
 /*    background: url(images/nature.jpg) fixed no-repeat;    
 */    margin-top: 60px;
-/*    background-color: #00251a;
-*/}
+    background-color: #00251a;
+}
 
 .portfolioTitle > div > h2 {
-    /*background: url(images/footer_lodyas.png) fixed no-repeat;
-    background-size: cover;  */  
-    background-color: #00251a;
     color: white;
+    margin: 0;
+    padding: 0;
     font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: -15px;
-    margin-right: -15px;
-    margin-bottom: -4px;
+    padding-top: 13px;
+    padding-bottom: 12px;
 }
 
 .row {
@@ -250,7 +248,7 @@ a:focus {
 }
 
 .brickProBox {
-    padding-top: 100px;
+    padding-top: 80px;
     background-color: #white; /*#F6F6DE #a1b77e*/
 }
 
@@ -261,7 +259,7 @@ a:focus {
 }
 
 .homeDecorBox {
-    padding-top: 100px;
+    padding-top: 80px;
     border-top: 1px solid #bad39e;
     background-color: white; /*#F7F7DB #dbda95*/
 }
@@ -273,7 +271,7 @@ a:focus {
 }
 
 .romancePlaceBox {
-    padding-top: 100px;
+    padding-top: 80px;
     border-top: 1px solid #bad39e;
     background-color: white; /*#F7F7DB #dbda95*/
 }

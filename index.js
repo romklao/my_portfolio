@@ -4,7 +4,7 @@ function moveToAbout() {
     $('.linkToAbout').click(function(event) {
         event.preventDefault();
     $('html, body').animate({
-        scrollTop: parseInt($(".aboutTitle").offset().top)
+        scrollTop: parseInt($("#aboutTitle").offset().top)
     }, 1000);
   });
 }
