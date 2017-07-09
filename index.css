@@ -229,9 +229,6 @@ a:focus {
 .portfolioWrap {
     text-align: center;
     background-color: white; /*#9eaf82*/
-    margin-bottom: 50px;
-    padding-bottom: 40px;
-    z-index: -1;
 }
 
 .portfolioWrap > div > h2 {
@@ -271,6 +268,7 @@ a:focus {
 }
 
 .romancePlaceBox {
+    text-align: center;
     padding-top: 80px;
     border-top: 1px solid #bad39e;
     background-color: white; /*#F7F7DB #dbda95*/
@@ -282,9 +280,9 @@ a:focus {
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
 }
 
-.liveGithub {
+/*.buttonLink {
     text-align: center;
-}
+}*/
 
 .link {
     position: relative;
@@ -302,43 +300,77 @@ a:focus {
     transform: translatex(-50%);
 }
 
-/*.linkResume {
-    position: absolute;
-    top: 80%;
-    padding-top: 6px;
-    padding-bottom: 6px; 
-    width: 130px;
-    left: 50%;   
-    transform: translatex(-50%);
-}*/
-
 .link:hover {
     text-decoration: none;
     color: #009146;
     cursor: pointer;
     border-bottom: 2px solid #009146;
+/*    transition: border-bottom 1s ease; 5B992F
+*/}
+
+.linkResume {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 3px 11px 3px 11px;
+    border: 1px solid #245e38;
+    background-color: #245e38;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+.linkResume:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #00251a;
+    border-color: #00251a;
+    transition: background-color 1s ease;
+}
+
+.icon:hover {
+    border-radius: 8px;
+    background-color: #245e38;
+    transition: background-color 1s ease;
 }
 
 #contactWrap {
-    height: 300px;
-    padding-top: 50px;
-    background-color: #4D6625;
-    border: 1px solid #f2eeed;
+    text-align: center;
+    padding-bottom: 120px;
+/*    background-color: #e4efd5;
+*/    /*border-top: 1px solid #bad39e;*/
+}
+
+.contactTitle {
+    background-color: #00251a;
+}
+
+.contactTitle > h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .icon {
-    width: 35px;
-    margin-top: 40px;
+    width: 40px;
+    margin-top: 70px;
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 40px;
 }
+
+/*------------Animetion leaves fallling-------------*/
 
 .dot{
   width:35px;
   height:35px;
   position:absolute;
   background: url(images/leaves.png);
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 

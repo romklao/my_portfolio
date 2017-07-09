@@ -58,7 +58,7 @@ function scrollNavChange(){
     }
 }
 
-TweenLite.set("#landingPage",{perspective:600})
+TweenLite.set("#landingPage", {perspective:600})
 
 var total = 20;
 var warp = document.getElementById("landingPage"),  w = window.innerWidth , h = window.innerHeight;
