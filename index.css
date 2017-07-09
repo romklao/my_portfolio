@@ -366,19 +366,23 @@ a:focus {
     .imageList {
         margin: 0;
     }
-    .linkLive, .linkGithub {
-        top: 83%;
+    .portfolioText {
+        width: 90%;
     }
-    .linkGithub {
-        left: 50%;
+    .brickProImage, .homeDecorImage, .romancePlaceImage {
+        width: 85%;
     }
-    .portfolioBox {
+    .link {
+        left: 32%;
+    }
+
+    /*.portfolioBox {
         border-top: 1px solid #f2eeed;
         height: 700px;
     }
     .portfolioBox > h3 {
         margin-top: 50px;
-    }
+    }*/
 }
 
 @media (min-width: 510px) and (max-width: 1190px) {
