@@ -58,6 +58,11 @@ function scrollNavChange(){
     }
 }
 
+/*
+a Pen by DIACO : twitter.com/Diaco_ml  ||  codepen.io/MAW
+powered by GSAP : https://www.greensock.com/
+*/
+
 TweenLite.set("#landingPage", {perspective:600})
 
 var total = 20;

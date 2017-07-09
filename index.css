@@ -330,7 +330,7 @@ a:focus {
 }
 */
 
-.icon:hover {
+.icon:hover, .resumeIcon:hover {
     border-radius: 8px;
     background-color: #245e38;
     transition: background-color 1s ease;
@@ -370,12 +370,6 @@ a:focus {
 
 .resumeIcon {
     width: 50px;
-}
-
-.resumeIcon:hover {
-    border-radius: 8px;
-    background-color: #245e38;
-    transition: background-color 1s ease;
 }
 
 .resume > p {
