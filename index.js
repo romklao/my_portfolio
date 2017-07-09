@@ -13,7 +13,7 @@ function moveToPortfolio() {
     $('.linkToPortfolio').click(function(event) {
         event.preventDefault();
     $('html, body').animate({
-        scrollTop: parseInt($("#portfolioPageWrap").offset().top)
+        scrollTop: parseInt($(".portfolioTitle").offset().top)
     }, 1200);
   });
 }
