@@ -1,53 +1,118 @@
+
 * {
     box-sizing: border-box;
-    font-family: Lato;        
+    font-family: Poppins;        
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    line-height: 180%;
+    color: black;
+    font-size: 17px;
+}
+
+h1, h2, h3 {
+    color: black;
+    font-weight: bold;    
+}
+
+a:focus {
+    color: green;
+    text-decoration: none;
+}
+
+.active {
+    color: black;
+    font-size: 15px;
+}
+
+.navStart {
+    background: url(images/nature.jpg) fixed no-repeat; 
+    background-size: cover;
+    border-bottom: none;
     margin: 0;
 }
 
-p {
-    line-height: 180%;
-    font-family: arial;
+.navScrolled {
+    background-color: #00251a;
+    /*border-bottom: 1px solid #f7f4f4;
+    background: url(images/footer_lodyas.png) fixed no-repeat;
+    background-size: cover;*/
 }
 
-#navTitle1, #navTitle2, #navTitle3  {
-    color: grey;
-    font-size: 16px;    
+.navLinkScrolled {
+    color: white;
+    font-size: 15px !important;
+    font-weight: bold !important;
 }
 
-
-#navTitle1:hover, #navTitle2:hover, #navTitle3:hover  {
-    color: black;    
+.navLinkStart {
+    color: white; 
+    font-size: 15px !important;
+    font-weight: bold !important;
 }
 
-.landingPage {
-    background: url(images/background2.jpg) no-repeat fixed;
+.navLinkScrolled:hover {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 2px solid white !important;
+}
+
+.navLinkStart:hover {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 2px solid white !important;
+}
+
+.activeStart {
+    color: white ; 
+    background-color: transparent !important;
+    font-size: 15px !important;
+}
+
+.activeScrolled {
+    background-color: #00251a;
+    color: white; 
+    font-size: 15px !important;
+}
+
+.activeScrolled:hover, .activeStart:focus {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 1px solid white !important;
+}
+
+.activeStart:hover, .activeStart:focus {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 1px solid white !important;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: lightgrey;
+    width: 20px;
+}
+
+.navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-toggle, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+    border: 1px solid lightgrey;
+}
+
+#landingPage {
+    background: url(images/nature.jpg) fixed no-repeat;
     background-size: cover;
     height: 670px;
+    margin: 0;
+    overflow: hidden;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
-
-.profileImage {
-    position: absolute;
-    max-width: 125px;
-    border-radius: 50%;
-    top: 410px;
-    left: 9.5%;
-}
-
-.nameCareer {
-    position: absolute;
-    text-align: center;
-    top: 555px;
-    left: 5.5%;
-    color: white;
-    font-size: 18px;
-}
-
-.name {
-    font-size: 24px;
 }
 
 .container {
@@ -58,231 +123,317 @@ p {
     padding: 0;
 }
 
-
-.skillPortfolioWrap {
-    position: absolute;
+#aboutTitle {
     text-align: center;
-    padding-top: 100px;
-    width: 95%;
+}
+
+#aboutTitle > div {
+    background-color: #00251a;
+}
+
+#aboutTitle > div > h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: bold;
+    color: white;
+}
+
+.imageName {
+    text-align: center;
+}
+
+.name {
+    margin-bottom: 40px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+.aboutText {
+    position: relative;
+    width: 65%;
+    left: 52%;
+    transform: translatex(-50%);
+}
+
+.profileImage {
+    max-width: 360px;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+
+.skillBox {
+    position: relative;
+    text-align: center;
+    width: 70%;
     left: 50%;
     transform: translatex(-50%);
+}
+
+.skillBox > div > h3 {
+    font-weight: bold;    
+}
+
+.skillBox > div {
+    margin-top: 20px;
+}
+
+.skillImageDiv {
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imageList {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imageSkill {
+    max-width: 42px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imageSkillCss {
+    max-width: 30px;
+}
+
+.portfolioTitle {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.portfolioTitle > div {
+/*    background: url(images/nature.jpg) fixed no-repeat;    
+*/    margin-top: 60px;
+    background-color: #00251a;
+}
+
+.portfolioTitle > div > h2 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    padding-top: 13px;
+    padding-bottom: 12px;
 }
 
 .row {
     margin: 0;
 }
 
-.imageList {
-    display: inline-block;
-    text-decoration: none;
-    margin-left: 15px;
-    margin-right: 60px;
-}
-
-.skill {
-    background-color: #fcfaf9;
-}
-
-.about, .skillBox {
-    height: 550px;
-    border: 1px solid #f2eeed;
-    margin: 0;
-}
-
-.introduction {
-    margin-top: 15px;
-    text-align: left;
-    font-size: 17px;
-    padding: 35px 20px 35px 20px;
-    background-color: white;
-}
-
-.about {
-    border-right: none;
-    padding: 45px 40px 40px 40px;
-}
-
-.skillBox {
-    padding: 45px 35px 35px 35px;
-
-}
-
-.skillImageDiv {
-    position: relative;
-    margin-bottom: 30px;
-    margin-top: 95px;
-}
-
-.imageSkill {
-    max-width: 60px;
-}
-
-.imageSkillCss {
-    max-width: 45px;
-}
-
-
-.portfolioPage, .skill, #contactWrap {
+.portfolioWrap {
     text-align: center;
-    margin-top: 20px;
-    color: black;
-    font-family: Lato;
-    padding: 0;
+    background-color: white; /*#9eaf82*/
 }
 
-.skill > div > h2, 
-.portfolioBox > h3,
-.portfolioDiv > div > h2, 
-#contactWrap > div > div > h2 {
-    font-family: arial;
-}
-
-.portfolioDiv {
-    padding: 20px;
-}
-
-#portfolioPageWrap, #contactWrap {
-    margin-top: 120px;
-    padding: 10px;
-    margin-bottom: 120px;
-    border: 1px solid #f2eeed;
-    background-color: #fcfaf9;
-}
-
-.portfolioBox {
-    height: 660px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.portfolioImg {
-    max-width: 100%;
-    margin-top: 35px;
+.portfolioWrap > div > h2 {
+    font-weight: bold;
 }
 
 .portfolioText {
+    position: relative;
+    width: 60%;
     text-align: left;
-    height: 270px;
-    font-size: 16px;
-    padding-left: 11px;
-    padding-right: 5px;
-    background-color: white;
-    padding-top: 30px;
-}
-
-
-.linkResume, .link {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #5e4736;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 17px;
-    border-radius: 4px;
-    background-color: #5e4736;
-    margin-top: 20px;
-}
-
-.linkResume {
-    position: absolute;
-    top: 80%;
-    padding-top: 6px;
-    padding-bottom: 6px; 
-    width: 130px;
-    left: 50%;   
+    margin-top: 30px;
+    left: 52%;
     transform: translatex(-50%);
 }
 
+.brickProBox {
+    padding-top: 80px;
+    background-color: #white; /*#F6F6DE #a1b77e*/
+}
+
+.brickProImage {
+    width: 55%;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+
+.homeDecorBox {
+    padding-top: 80px;
+    border-top: 1px solid #bad39e;
+    background-color: white; /*#F7F7DB #dbda95*/
+}
+
+.homeDecorImage {
+    width: 55%;
+    margin-bottom: 50px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.romancePlaceBox {
+    text-align: center;
+    padding-top: 80px;
+    border-top: 1px solid #bad39e;
+    background-color: white; /*#F7F7DB #dbda95*/
+}
+
+.romancePlaceImage {
+    width: 60%;
+    margin-bottom: 50px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+/*.buttonLink {
+    text-align: center;
+}*/
+
 .link {
-    width: 70px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-
-.linkLive {
-    position: absolute;
-    top: 85%;
-    left: 30%;
-}
-
-.linkGithub {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-}
-
-.linkResume:hover, .link:hover {
+    position: relative;
+    display: inline-block;
     text-decoration: none;
-    background-color: black;
-    border-color: black;
-    color: white;
+    text-align: center;
+    color: #009146;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 19px;
+    margin-bottom: 70px;
+    width: 77px;
+    height: 35px;
+    left: 39.5%;
+    transform: translatex(-50%);
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #009146;
     cursor: pointer;
+    border-bottom: 2px solid #009146;
+/*    transition: border-bottom 1s ease; 5B992F
+*/}
+
+/*.linkResume {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 3px 11px 3px 11px;
+    border: 1px solid #245e38;
+    background-color: #245e38;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+.linkResume:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #00251a;
+    border-color: #00251a;
+    transition: background-color 1s ease;
+}
+*/
+
+.icon:hover, .resumeIcon:hover {
+    border-radius: 8px;
+    background-color: #245e38;
+    transition: background-color 1s ease;
 }
 
 #contactWrap {
-    height: 300px;
-    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 120px;
+/*    background-color: #e4efd5;
+*/    /*border-top: 1px solid #bad39e;*/
+}
+
+.contactTitle {
+    background-color: #00251a;
+}
+
+.contactTitle > h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .icon {
-    width: 35px;
-    margin-top: 40px;
+    width: 40px;
+    margin-top: 70px;
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 30px;
 }
 
+.linkResume {
+    display: block;
+}
+
+.resumeIcon {
+    width: 50px;
+}
+
+.resume > p {
+    font-size: 15px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+/*------------Animetion leaves fallling-------------*/
+
+.dot{
+  width:35px;
+  height:35px;
+  position:absolute;
+  background: url(images/leaves.png);
+  background-size: 100%;
+}
 
 
 @media (max-width: 500px) {
     .container {
         width: 100%;
     }
-    .about, .skillBox {
-        height: 800px;
-        border: 1px solid #f2eeed;
-        margin: 0;
-    }
-    .skillBox {
-        padding: 30px;
-        padding-top: 45px;
-    }
     .portfolioPage > div > img {
         max-width: 318px;
     }
-    .profileImage {
-        max-width: 350px;
-        top: 130px;
-        left: 6.4%;
+    .aboutText {
+        width: 93%;
     }
-    .nameCareer {
-        left: 21%;
+    .skillBox {
+        width: 100%;
     }
-    .linkLive, .linkGithub {
-        top: 83%;
+    .imageSkill {
+        width: 35px;
+        margin-left: 12px;
+        margin-right: 12px;
     }
-    .linkGithub {
-        left: 50%;
+    .imageSkillCss {
+        width: 25px;
     }
-    .portfolioBox {
-        border-top: 1px solid #f2eeed;
-        height: 700px;
+    .imageList {
+        margin: 0;
     }
-    .portfolioBox > h3 {
-        margin-top: 50px;
+    .portfolioText {
+        width: 90%;
     }
+    .brickProImage, .homeDecorImage, .romancePlaceImage {
+        width: 85%;
+    }
+    .link {
+        left: 32%;
+    }
+
 }
 
 @media (min-width: 510px) and (max-width: 1190px) {
     .portfolioBox {
         border-top: 1px solid #f2eeed;
-        height: 770px;
+        height: 720px;
     }
     .portfolioBox > h3 {
         margin-top: 50px;
     }
+
 }
 
 

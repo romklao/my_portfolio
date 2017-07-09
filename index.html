@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <title>My portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/journal/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top navStart">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -22,94 +22,125 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav pull-right">
-                        <li class="linkToAbout"><a href="#" id="navTitle1">About <span class="sr-only">(current)</span></a></li>
-                        <li class="linkToPortfolio"><a href="#" id="navTitle2">Portfolio</a></li>
-                        <li class="linkToContact"><a href="#" id="navTitle3">Contact</a></li>
+                        <li class="linkToAbout">
+                            <a href="#" class="hidden-xs navLinkStart navLink">ABOUT<span class="sr-only">(current)</span></a>
+                            <a href="#" class="visible-xs active activeStart" data-toggle="collapse" data-target=".navbar-collapse">ABOUT<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="linkToPortfolio">
+                            <a href="#" class="hidden-xs navLinkStart navLink">PORTFOLIO</a>
+                            <a href="#" class="visible-xs active activeStart" data-toggle="collapse" data-target=".navbar-collapse">PORTFOLIO</a>
+                        </li>
+                        <li class="linkToContact">
+                            <a href="#" class="hidden-xs navLinkStart navLink">CONTACT</a>
+                            <a href="#" class="visible-xs active activeStart" data-toggle="collapse" data-target=".navbar-collapse">CONTACT</a>
+                        </li>
+                        <li class="linkToResume">
+                            <a href="#" class="hidden-xs navLinkStart navLink">RESUME</a>
+                            <a href="#" class="visible-xs active activeStart" data-toggle="collapse" data-target=".navbar-collapse">RESUME</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <main id="main">
             <div class="container">
-                <div class="row landingPage">
-                    <div class="col-lg-12 col-sm-12">
+                <div class="row" id="landingPage">
+                </div>
+                <div class="row" id="aboutTitle">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">                        
+                        <h2>ABOUT</h2>
+                    </div>
+                </div>
+                <div class="row imageName">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
                         <img src="images/profileImage2.jpg" class="profileImage">
                         <div class="nameCareer">
-                            <p class="name">Romklao Chainuwong</p>
-                            <p>Web Developer</p>
+                            <h3 class="name">ROMKLAO CHAINUWONG</h3>
                         </div>
                     </div>
                 </div>
-                <div class="skillPortfolioWrap">
-                    <div class="row skill">
-                        <div class="col-lg-6 col-sm-12 about">
-                            <h2>ABOUT</h2>
-                            <p class="introduction">My name is Romklao and I am a junior web developer. I am comfortable with HTML, CSS, React, Redux, Javascript, Express, Node.js and responsive web applications. What I learned from working as a web developer is we always need to improve and learn new technologies to become more efficient in an evolving environment. Furthermore, we must learn how to find solutions by searching and asking for help from communities such as Stack Overflow. Communities are very helpful in supporting development
-                            in such a large ecosystem of technologies.</p>
-                        </div>
-                        <div class="col-lg-6 col-sm-12 skillBox">
-                            <h2>SKILLS</h2>
-                            <ul class="skillImageDiv">
-                                <li class="imageList"><img src="images/HTML5_logo.png" class="imageSkill"></li>
-                                <li class="imageList"><img src="images/CSS3_logo.png" class="imageSkill imageSkillCss"></li>
-                                <li class="imageList"><img src="images/javascript_logo.png" class="imageSkill"></li>
-                            </ul>
-                            <ul class="skillImageDiv2">
-                                <li class="imageList"><img src="images/jquery_logo.png" class="imageSkill"></li>
-                                <li class="imageList"><img src="images/enm.jpg" class="imageSkill"></li>
-                                <li class="imageList"><img src="images/react-logo.png" class="imageSkill"></li>
-                                <a href="" class="linkResume">View Resume</a>
-                            </ul>
-                        </div>
+                <div class="row aboutText">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <p>I am a full-stack web developer. I am comfortable with HTML, CSS, React, Redux, Javascript, Express, Node.js and responsive web applications. What I learned from working as a web developer is we always need to improve and learn new technologies to become more efficient in an evolving environment. Furthermore, we must learn how to find solutions by searching and asking for help from communities such as Stack Overflow. Communities are very helpful in supporting development
+                        in such a large ecosystem of technologies.</p>
                     </div>
-                    <div id="portfolioPageWrap">
-                        <div class="row portfolioDiv">
-                            <div class="col-lg-12 col-sm-12">
-                                <h2>PORTFOLIO</h2>
-                            </div>
-                        </div>
-                        <div class="row portfolioPage">
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 portfolioBox portfolioBrickPro">
-                                <h3>BRICK PRO</h3>
-                                <img src="images/brickPro.jpg.png" class="portfolioImg">
-                                <p class="portfolioText">A full-stack app which allows users to search, save favorite Lego items, and find sellers. Developed with HTML, CSS, Javascript, Express, MongoDB and Node.js. Data is retrieved with a Fetch API from Rebrickable API.</p>
-                                <a href="https://blooming-thicket-55082.herokuapp.com/" target="_blank" class="link linkLive">Live</a>
-                                <a href="https://github.com/romklao/capstone_lego" target="_blank" class="link linkGithub">Github</a>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 portfolioBox portfolioHomeDecor">
-                                <h3>HOME DECORATION</h3>
-                                <img src="images/decor.png" class="portfolioImg">
-                                <p class="portfolioText">A full-stack app created with HTML, CSS, Javascript, React, Redux Express, MongoDB and Node.js. Data is retrieved with a Fetch API from Amazon API. It enables searching for decorating products, comparing prices, and storing favorite items. 
-                                </p>
-                                <a href="" class="link linkLive">Live</a>
-                                <a href="https://github.com/romklao/react_capstone" class="link linkGithub" target="_blank">Github</a>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 portfolioBox">
-                                <h3>ROMANTIC PLACES</h3>
-                                <img src="images/searchPlaces.png" class="portfolioImg">
-                                <p class="portfolioText RomancText">A frontend only project developed with HTML, CSS and Javascript. Integrates the Foursquare API and Google Maps API to generate the data and location of places. Data is retrieved with AJAX (Asynchronous JavaScript And XML).</p>
-                                <a href="https://romklao.github.io/capstone_api/" target="_blank" class="link linkLive">Live</a>
-                                <a href="https://github.com/romklao/capstone_api" target="_blank" class="link linkGithub">Github</a>
+                </div>
+                <div class="row skillBox">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <h3>SKILLS</h3>
+                        <ul class="skillImageDiv">
+                            <li class="imageList"><img src="images/HTML5_logo.png" class="imageSkill"></li>
+                            <li class="imageList"><img src="images/CSS3_logo.png" class="imageSkill imageSkillCss"></li>
+                            <li class="imageList"><img src="images/javascript_logo.png" class="imageSkill"></li>
+                            <li class="imageList"><img src="images/jquery_logo.png" class="imageSkill"></li>
+                            <li class="imageList"><img src="images/enm.jpg" class="imageSkill"></li>
+                            <li class="imageList"><img src="images/react-logo.png" class="imageSkill"></li>
+<!--                             <a href="" class="linkResume">View Resume</a>
+ -->                    </ul>
+                    </div>
+                </div>
+                <div class="row portfolioTitle">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <h2>PORTFOLIO</h2>
+                    </div>
+                </div>
+                <div class="row portfolioWrap">
+                    <div class="col-lg-12 col-sm-12 col-xs-12 brickProBox">
+                        <img src="images/legos.jpg" class="brickProImage">
+                        <h3>BRICK PRO</h3>
+                        <div class="portfolioText">
+                            <p>A full-stack app which allows users to search, save favorite Lego items, and find sellers to purchase. Developed with HTML, CSS, Javascript, Express, MongoDB and Node.js. Relevant data is retrieved with a Fetch API from Rebrickable API.</p>
+                            <div class="buttonLink">
+                                <a href="https://blooming-thicket-55082.herokuapp.com/" target="_blank" class="link linkLive">LIVE</a>
+                                <a href="https://github.com/romklao/capstone_lego" target="_blank" class="link linkGithub">GITHUB</a>
                             </div>
                         </div>
                     </div>
-                    <div id="contactWrap">
-                        <div class="row">
-                            <div class="col-lg-12 col-sm-12 contact">
-                                <h2>CONTACT</h2>
-                                <a href="https://github.com/romklao" target="_blank"><img src="images/github-sign.png" class="icon"></a>
-                                <a href="https://www.linkedin.com/in/romklaochainuwong/" target="_blank"><img src="images/linked-in.png" class="icon"></a>
-                                <a href="mailto:rk120879@gmail.com"><img src="images/email.png" class="icon"></a>
+                    <div class="col-lg-12 col-sm-12 col-xs-12 homeDecorBox">
+                        <img src="images/sofa2.jpg" class="homeDecorImage">
+                        <h3>HOME DECORATION</h3>
+                        <div class="portfolioText">
+                            <p>A full-stack app created with HTML, CSS, Javascript, React, Redux, Express, MongoDB and Node.js. Data is retrieved with a Fetch API from Amazon API. It enables to search for decorating products and store favorite items.</p>
+                            <div class="buttonLink">
+                                <a href="https://enigmatic-mesa-94213.herokuapp.com/#/" target="_blank" class="link linkLive">LIVE</a>
+                                <a href="https://github.com/romklao/react_capstone" class="link linkGithub" target="_blank">GITHUB</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-sm-12 col-xs-12 romancePlaceBox">
+                        <img src="images/searchPlaces.png" class="romancePlaceImage">
+                        <h3>ROMANTIC PLACES</h3>
+                        <div class="portfolioText">
+                            <p>A frontend only project developed with HTML, CSS and Javascript. Integrates the Foursquare API and Google Maps API to generate the data and location of places. Data is retrieved with AJAX (Asynchronous JavaScript And XML).</p>
+                            <div class="buttonLink">
+                                <a href="https://romklao.github.io/capstone_api/" target="_blank" class="link linkLive">LIVE</a>
+                                <a href="https://github.com/romklao/capstone_api" target="_blank" class="link linkGithub">GITHUB</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div id="contactWrap">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12 contactTitle">
+                            <h2>CONTACT</h2>
+                        </div>
+                        <div class="col-lg-12 col-sm-12">
+                            <a href="https://github.com/romklao" target="_blank"><img src="images/github.png" class="icon"></a>
+                            <a href="https://www.linkedin.com/in/romklaochainuwong/" target="_blank"><img src="images/linkedin.png" class="icon"></a>
+                            <a href="mailto:rk120879@gmail.com"><img src="images/email1.png" class="icon"></a>
+                        </div>
+                        <div class="resume">
+                            <a href="" class="linkResume"><img src="images/resume.png" class="resumeIcon"></a>
+                            <p>RESUME</p>
+                        </div>                           
+                    </div>
+                </div> 
             </div>
         </main>
 
 
-
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
