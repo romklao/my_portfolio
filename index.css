@@ -35,8 +35,8 @@ a:focus {
 
 .navScrolled {
     background-color: #00251a;
-    border-bottom: 2px solid #f7f4f4;
-    /*background: url(images/footer_lodyas.png) fixed no-repeat;
+/*    border-bottom: 0px solid #f7f4f4;
+*/    /*background: url(images/footer_lodyas.png) fixed no-repeat;
     background-size: cover;*/
 }
 
@@ -44,12 +44,15 @@ a:focus {
     color: white;
     font-size: 15px !important;
     font-weight: bold !important;
+    border-bottom: 2px solid #00251a !important;
+    padding-bottom: 9px !important;
 }
 
 .navLinkStart {
     color: white; 
     font-size: 15px !important;
     font-weight: bold !important;
+    padding-bottom: 11px !important;
 }
 
 .navLinkScrolled:hover {
