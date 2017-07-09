@@ -144,8 +144,8 @@ a:focus {
 }
 
 .name {
-    margin-bottom: 22px;
-    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-top: 35px;
     font-weight: bold;
 }
 
@@ -376,13 +376,6 @@ a:focus {
         left: 32%;
     }
 
-    /*.portfolioBox {
-        border-top: 1px solid #f2eeed;
-        height: 700px;
-    }
-    .portfolioBox > h3 {
-        margin-top: 50px;
-    }*/
 }
 
 @media (min-width: 510px) and (max-width: 1190px) {
