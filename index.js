@@ -29,7 +29,7 @@ function moveToContact() {
 
 function scrollNavChange(){         
     var scroll_start = 0;
-    var startchange = $('.portfolioTitle');
+    var startchange = $('#aboutTitle');
     var offset = startchange.offset();
 
     if (startchange.length) {
