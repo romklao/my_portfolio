@@ -308,7 +308,7 @@ a:focus {
 /*    transition: border-bottom 1s ease; 5B992F
 */}
 
-.linkResume {
+/*.linkResume {
     margin-top: 50px;
     text-align: center;
     font-size: 17px;
@@ -328,6 +328,7 @@ a:focus {
     border-color: #00251a;
     transition: background-color 1s ease;
 }
+*/
 
 .icon:hover {
     border-radius: 8px;
@@ -360,7 +361,27 @@ a:focus {
     margin-top: 70px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.linkResume {
+    display: block;
+}
+
+.resumeIcon {
+    width: 50px;
+}
+
+.resumeIcon:hover {
+    border-radius: 8px;
+    background-color: #245e38;
+    transition: background-color 1s ease;
+}
+
+.resume > p {
+    font-size: 15px;
+    margin-top: 7px;
+    font-weight: bold;
 }
 
 /*------------Animetion leaves fallling-------------*/
