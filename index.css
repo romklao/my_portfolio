@@ -35,7 +35,7 @@ a:focus {
 
 .navScrolled {
     background-color: #00251a;
-    border-bottom: 1px solid #f7f4f4;
+    border-bottom: 2px solid #f7f4f4;
     /*background: url(images/footer_lodyas.png) fixed no-repeat;
     background-size: cover;*/
 }
