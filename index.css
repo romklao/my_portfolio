@@ -391,6 +391,10 @@ a:focus {
     font-weight: bold;
 }
 
+.devide {
+    color: #009146;
+}
+
 footer {
     text-align: center;
     margin: 0;
