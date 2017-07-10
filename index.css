@@ -296,13 +296,24 @@ a:focus {
     font-weight: bold;
     margin-top: 19px;
     margin-bottom: 70px;
-    width: 77px;
     height: 35px;
-    left: 39.5%;
+    left: 40%;
     transform: translatex(-50%);
 }
 
-.link:hover {
+.linkLive {
+    width: 53px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.linkGithub {
+    width: 80px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.linkLive:hover, .linkGithub:hover {
     text-decoration: none;
     color: #009146;
     cursor: pointer;
