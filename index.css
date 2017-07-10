@@ -411,6 +411,8 @@ footer > div > p {
     color: black;
     margin: 0;
     padding: 0;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .copyright {
