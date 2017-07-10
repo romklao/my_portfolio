@@ -35,24 +35,23 @@ a:focus {
 
 .navScrolled {
     background-color: #00251a;
-/*    border-bottom: 0px solid #f7f4f4;
-*/    /*background: url(images/footer_lodyas.png) fixed no-repeat;
-    background-size: cover;*/
 }
 
 .navLinkScrolled {
     color: white;
     font-size: 15px !important;
     font-weight: bold !important;
-    border-bottom: 2px solid #00251a !important;
+/*    border-bottom: 1px solid #00251a !important;
+*/    border-top: 5px solid #00251a !important;
     padding-bottom: 9px !important;
+    padding-top: 10px !important;
 }
 
 .navLinkStart {
     color: white; 
     font-size: 15px !important;
     font-weight: bold !important;
-    padding-bottom: 11px !important;
+    padding-bottom: 9px !important;
 }
 
 .navLinkScrolled:hover {
@@ -96,14 +95,14 @@ a:focus {
     width: 20px;
 }
 
-.navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: transparent;
+.navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: none;
 }
 
-.navbar-toggle, .navbar-default .navbar-toggle:focus {
-    background-color: transparent;
+/*.navbar-toggle, .navbar-toggle:focus {
+    background-color: none;
     border: 1px solid lightgrey;
-}
+}*/
 
 #landingPage {
     background: url(images/nature.jpg) fixed no-repeat;
