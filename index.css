@@ -353,7 +353,7 @@ a:focus {
 
 #contactWrap {
     text-align: center;
-    padding-bottom: 120px;
+    padding-bottom: 40px;
 /*    background-color: #e4efd5;
 */    /*border-top: 1px solid #bad39e;*/
 }
@@ -392,6 +392,30 @@ a:focus {
     font-size: 15px;
     margin-top: 7px;
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer > div {
+/*    background-color: #00251a;
+*/    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid lightgrey;
+}
+
+footer > div > p {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    width: 16px;
+    padding-bottom: 3px;
 }
 
 /*------------Animetion leaves fallling-------------*/
