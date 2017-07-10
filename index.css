@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-p{
+p {
     line-height: 180%;
     color: black;
     font-size: 17px;
@@ -180,13 +180,18 @@ a:focus {
 }
 
 .skillBox > div {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .skillImageDiv {
     padding: 0;
     text-align: center;
     margin-top: 30px;
+}
+
+.skillImageDiv > li > p {
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 .imageList {
@@ -197,13 +202,13 @@ a:focus {
 }
 
 .imageSkill {
-    max-width: 42px;
+    max-width: 35px;
     margin-right: 20px;
     margin-left: 20px;
 }
 
 .imageSkillCss {
-    max-width: 30px;
+    max-width: 25px;
 }
 
 .portfolioTitle {
@@ -319,28 +324,6 @@ a:focus {
     border-bottom: 2px solid #009146;
 }
 
-/*.linkResume {
-    margin-top: 50px;
-    text-align: center;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 3px 11px 3px 11px;
-    border: 1px solid #245e38;
-    background-color: #245e38;
-    border-radius: 4px;
-    color: white;
-    text-decoration: none;
-}
-
-.linkResume:hover {
-    color: white;
-    text-decoration: none;
-    background-color: #00251a;
-    border-color: #00251a;
-    transition: background-color 1s ease;
-}
-*/
-
 .icon:hover, .resumeIcon:hover {
     border-radius: 8px;
     background-color: #245e38;
@@ -433,6 +416,9 @@ footer > div > p {
 
 
 @media (max-width: 500px) {
+    p {
+        font-size: 16px;
+    }
     .container {
         width: 100%;
     }
@@ -446,12 +432,12 @@ footer > div > p {
         width: 100%;
     }
     .imageSkill {
-        width: 35px;
+        width: 32px;
         margin-left: 12px;
         margin-right: 12px;
     }
     .imageSkillCss {
-        width: 25px;
+        width: 23px;
     }
     .imageList {
         margin: 0;
@@ -460,7 +446,7 @@ footer > div > p {
         width: 90%;
     }
     .brickProImage, .homeDecorImage, .romancePlaceImage {
-        width: 85%;
+        width: 90%;
     }
     .link {
         left: 32%;
