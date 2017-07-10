@@ -391,10 +391,6 @@ a:focus {
     font-weight: bold;
 }
 
-.devide {
-    color: #009146;
-}
-
 footer {
     text-align: center;
     margin: 0;
@@ -409,16 +405,20 @@ footer > div {
 }
 
 footer > div > p {
-    color: black;
+    color: #00251a;
     margin: 0;
     padding: 0;
     font-weight: bold;
     font-size: 14px;
 }
 
+.devide {
+    color: #48821F;
+}
+
 .copyright {
-    width: 16px;
-    padding-bottom: 3px;
+    width: 15px;
+    padding-bottom: 2px;
 }
 
 /*------------Animetion leaves fallling-------------*/
