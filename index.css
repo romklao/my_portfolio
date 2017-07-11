@@ -324,18 +324,9 @@ a:focus {
     border-bottom: 2px solid #009146;
 }
 
-.icon:hover, .resumeIcon:hover {
-    border-radius: 8px;
-    background-color: #245e38;
-    transition: background-color 1s ease;
-    cursor: pointer;
-}
-
 #contactWrap {
     text-align: center;
     padding-bottom: 40px;
-/*    background-color: #e4efd5;
-*/    /*border-top: 1px solid #bad39e;*/
 }
 
 .contactTitle {
@@ -352,11 +343,23 @@ a:focus {
 }
 
 .icon {
-    width: 40px;
+    width: 37px;
     margin-top: 20px;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 30px;
+}
+
+.githubIcon {
+    width: 39px;
+}
+
+.icon:hover, .resumeIcon:hover {
+    /*border-radius: 50%;
+    background-color: #4078c0; #245e38*/
+    transform: scale(1.15);
+    transition: transform 1s ease;
+    cursor: pointer;
 }
 
 .linkResume {
@@ -381,8 +384,7 @@ footer {
 }
 
 footer > div {
-/*    background-color: #00251a;
-*/    padding-top: 12px;
+    padding-top: 12px;
     padding-bottom: 12px;
     border-top: 1px solid lightgrey;
 }
@@ -395,9 +397,9 @@ footer > div > p {
     font-size: 14px;
 }
 
-.devide {
+/*.devide {
     color: #48821F;
-}
+}*/
 
 .copyright {
     width: 15px;
@@ -406,7 +408,7 @@ footer > div > p {
 
 /*------------Animetion leaves fallling-------------*/
 
-.dot{
+.dot {
   width:35px;
   height:35px;
   position:absolute;
