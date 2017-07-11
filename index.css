@@ -44,7 +44,7 @@ a:focus {
     border-bottom: 1px solid #00251a !important;
     border-top: 5px solid #00251a !important;
     padding-bottom: 9px !important;
-    padding-top: 9px !important;
+    padding-top: 10px !important;
 }
 
 .navLinkStart {
@@ -53,7 +53,7 @@ a:focus {
     font-size: 15px !important;
     font-weight: bold !important;
     padding-bottom: 9px !important;
-    padding-top: 9px !important;
+    padding-top: 10px !important;
 }
 
 .navLinkScrolled:hover {
@@ -62,10 +62,20 @@ a:focus {
     border-bottom: 2px solid white !important;
 }
 
+.navLinkScrolled:focus {
+    color: #f7cd79;
+    background-color: transparent !important;
+}
+
 .navLinkStart:hover {
     color: white;
     background-color: transparent !important;
     border-bottom: 2px solid white !important;
+}
+
+.navLinkStart:focus {
+    color: #f7cd79;
+    background-color: transparent !important;
 }
 
 .activeStart {
@@ -80,7 +90,7 @@ a:focus {
     font-size: 15px !important;
 }
 
-.activeScrolled:hover, .activeStart:focus {
+.activeScrolled:hover, .activeScrolled:focus {
     color: white;
     background-color: transparent !important;
     border-bottom: 1px solid white !important;
