@@ -56,17 +56,6 @@ a:focus {
     padding-top: 10px !important;
 }
 
-.navLinkScrolled:hover {
-    color: white;
-    background-color: transparent !important;
-    border-bottom: 2px solid white !important;
-}
-
-.navLinkScrolled:focus {
-    color: #f7cd79;
-    background-color: transparent !important;
-}
-
 .navLinkStart:hover {
     color: white;
     background-color: transparent !important;
@@ -74,6 +63,17 @@ a:focus {
 }
 
 .navLinkStart:focus {
+    color: #f7cd79;
+    background-color: transparent !important;
+}
+
+.navLinkScrolled:hover {
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 2px solid white !important;
+}
+
+.navLinkScrolled:focus {
     color: #f7cd79;
     background-color: transparent !important;
 }
@@ -103,18 +103,13 @@ a:focus {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: lightgrey;
+    background-color: white;
     width: 20px;
 }
 
 .navbar-toggle:hover, .navbar-toggle:focus {
     background-color: none;
 }
-
-/*.navbar-toggle, .navbar-toggle:focus {
-    background-color: none;
-    border: 1px solid lightgrey;
-}*/
 
 #landingPage {
     background: url(images/nature.jpg) fixed no-repeat;
