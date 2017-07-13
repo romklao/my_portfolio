@@ -31,6 +31,12 @@ a:focus {
     background-size: cover;
     border-bottom: none;
     margin: 0;
+    background-image: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.1)
+    ),
+    url(images/nature.jpg);
 }
 
 .navScrolled {
@@ -117,11 +123,45 @@ a:focus {
     height: 670px;
     margin: 0;
     overflow: hidden;
+    background-image: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.1)
+    ),
+    url(images/nature.jpg);
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+.welcome {
+    position: absolute;
+/*    border: 3px solid white;
+*/    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px; 
+    top: 35%;
+    left: 50%;
+    text-align: center;
+/*    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+*/
+    -webkit-transform: translateX(-50%) translatey(-50%);
+    -moz-transform: translateX(-50%) translatey(-50%);
+    transform: translateX(-50%) translatey(-50%);
+}
+
+#landingPage > div > h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#landingPage > div > h3 {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+} 
 
 .container {
     position: absolute;
@@ -402,9 +442,6 @@ footer > div > p {
     font-size: 14px;
 }
 
-/*.devide {
-    color: #48821F;
-}*/
 
 .copyright {
     width: 15px;
