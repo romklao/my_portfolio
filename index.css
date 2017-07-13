@@ -139,7 +139,8 @@ a:focus {
     position: fixed;
     padding-right: 40px;
     padding-left: 40px;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
+    width: 100%; 
     top: 36%;
     left: 50%;
     transform: translateX(-50%) translatey(-50%);
@@ -167,6 +168,7 @@ a:focus {
     width: 40px;
     top: 90%;
     left: 50%;
+    cursor: pointer;
     transform: translateX(-50%) translatey(-50%);
     text-shadow: 2px 2px 4px #000000;
      -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -504,6 +506,12 @@ footer > div > p {
     }
     .link {
         left: 32%;
+    }
+    .welcome {
+        top: 43%;
+    }
+    #landingPage > div > h1 {
+        font-size: 26px;
     }
 
 }

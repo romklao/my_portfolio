@@ -27,6 +27,15 @@ function moveToContact() {
   });
 }
 
+function scroll() {
+    $('.scrollIcon').click(function(event) {
+        event.preventDefault();
+    $('html, body').animate({
+        scrollTop: parseInt($("#aboutTitle").offset().top)
+    }, 1000);
+  });
+}
+
 function scrollNavChange(){         
     var scroll_start = 0;
     var startchange = $('#aboutTitle');
@@ -85,6 +94,7 @@ function R(min,max) {return min+Math.random()*(max-min)};
 
 
 $(function() {
+    scroll();
     moveToAbout();
     moveToPortfolio();
     moveToContact();
