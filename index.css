@@ -45,7 +45,7 @@ a:focus {
 
 .navLinkScrolled {
     color: white;
-    font-size: 15px !important;
+    font-size: 16px !important;
     font-weight: bold !important;
     border-bottom: 1px solid #00251a !important;
     border-top: 5px solid #00251a !important;
@@ -56,7 +56,7 @@ a:focus {
 .navLinkStart {
     color: white; 
     border-top: 5px solid transparent !important;
-    font-size: 15px !important;
+    font-size: 16px !important;
     font-weight: bold !important;
     padding-bottom: 9px !important;
     padding-top: 10px !important;
@@ -87,13 +87,13 @@ a:focus {
 .activeStart {
     color: white ; 
     background-color: transparent !important;
-    font-size: 15px !important;
+    font-size: 16px !important;
 }
 
 .activeScrolled {
     background-color: #00251a;
     color: white; 
-    font-size: 15px !important;
+    font-size: 16px !important;
 }
 
 .activeScrolled:hover, .activeScrolled:focus {
