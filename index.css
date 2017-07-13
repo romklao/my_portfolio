@@ -476,9 +476,21 @@ footer > div > p {
     p {
         font-size: 16px;
     }
-    .container {
+    .wrapLandingPage {
         width: 100%;
     }
+    #landingPage > div > h1 {
+        font-size: 26px;
+    }
+    .welcome {
+        top: 43%;
+        margin: 0;
+        padding: 0;
+    }
+    .welcome > div > h1 {
+        font-size: 27px;
+        width: 100%;
+    } 
     .portfolioPage > div > img {
         max-width: 318px;
     }
@@ -507,12 +519,6 @@ footer > div > p {
     }
     .link {
         left: 32%;
-    }
-    .welcome {
-        top: 43%;
-    }
-    #landingPage > div > h1 {
-        font-size: 26px;
     }
 
 }
