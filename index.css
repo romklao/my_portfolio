@@ -136,32 +136,42 @@ a:focus {
 }
 
 .welcome {
-    position: absolute;
-/*    border: 3px solid white;
-*/    padding-right: 40px;
+    position: fixed;
+    padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 10px; 
     top: 35%;
     left: 50%;
+    transform: translateX(-50%) translatey(-50%);
     text-align: center;
 /*    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
 */
     -webkit-transform: translateX(-50%) translatey(-50%);
     -moz-transform: translateX(-50%) translatey(-50%);
-    transform: translateX(-50%) translatey(-50%);
 }
 
 #landingPage > div > h1 {
     color: white;
     font-size: 40px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 3px #000000;
 }
 
 #landingPage > div > h3 {
     color: white;
     font-size: 30px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 3px #000000;
 } 
+
+.scrollIcon {
+    position: absolute;
+    width: 40px;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%) translatey(-50%);
+    text-shadow: 2px 2px 4px #000000;
+     -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
 
 .container {
     position: absolute;
