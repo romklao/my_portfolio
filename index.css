@@ -169,7 +169,7 @@ a:focus {
     width: 40px;
     top: 390px;
     cursor: pointer;
-    left: 50%;
+    left: 48%;
     transform: translateX(-50%) translatey(-50%);
     text-shadow: 2px 2px 4px #000000;
      -webkit-filter: drop-shadow(5px 5px 5px #222);
