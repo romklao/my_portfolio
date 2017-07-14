@@ -145,7 +145,7 @@ a:focus {
 
 .welcome > div > p {
     position: fixed;
-    top: 86%;
+    top: 89%;
     color: white;
     font-size: 15px;
     text-shadow: 2px 2px 5px #000000;
@@ -156,7 +156,7 @@ a:focus {
 .welcome .scrollIcon {
     position: fixed;
     width: 33px;
-    top: 93%;
+    top: 95.5%;
     cursor: pointer;
     left: 50%;
     transform: translateX(-50%) translatey(-50%);
