@@ -449,8 +449,8 @@ footer > div > p {
 /*------------Animetion leaves fallling-------------*/
 
 .dot {
-  width:27px;
-  height:30px;
+  width:30px;
+  height:35px;
   position:absolute;
   background: url(images/leaves.png);
   background-size: 100%;

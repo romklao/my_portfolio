@@ -74,7 +74,7 @@ powered by GSAP : https://www.greensock.com/
 
 TweenLite.set("#landingPage", {perspective:600})
 
-var total = 20;
+var total = 15;
 var warp = document.getElementById("landingPage"),  w = window.innerWidth , h = window.innerHeight;
  
 for (var i=0; i<total; i++){ 
