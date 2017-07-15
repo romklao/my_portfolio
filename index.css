@@ -33,8 +33,8 @@ a:focus {
     margin: 0;
     background-image: 
         linear-gradient(
-          rgba(0, 0, 0, 0.2),
-          rgba(0, 0, 0, 0.2)
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.1)
     ),
     url(images/nature.jpg);
 }
@@ -133,8 +133,8 @@ a:focus {
     overflow: hidden;
     background-image: 
         linear-gradient(
-          rgba(0, 0, 0, 0.2),
-          rgba(0, 0, 0, 0.2)
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.1)
     ),
     url(images/nature.jpg);
 
@@ -449,8 +449,8 @@ footer > div > p {
 /*------------Animetion leaves fallling-------------*/
 
 .dot {
-  width:30px;
-  height:35px;
+  width:28px;
+  height:32px;
   position:absolute;
   background: url(images/leaves.png);
   background-size: 100%;
