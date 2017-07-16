@@ -42,8 +42,8 @@ a:focus {
     margin: 0;
     background-image: 
         linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
     ),
     url(images/nature.jpg);
 }
@@ -142,8 +142,8 @@ a:focus {
     overflow: hidden;
     background-image: 
         linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
     ),
     url(images/nature.jpg);
 
@@ -496,15 +496,17 @@ footer > div > p {
     #landingPage > div > h1 {
         font-size: 26px;
     }
-    .welcome {
-        top: 43%;
-        margin: 0;
-        padding: 0;
-    }
-    .welcome > div > h1 {
-        font-size: 27px;
+    .welcome > div > div > p:nth-child(1) {
+        font-size: 25px;
         width: 100%;
-    } 
+        left: 57%;
+    }
+    .welcome > div > div > p:nth-child(2) {
+        font-size: 18px;
+        width: 100%;
+        top: 48%;
+        left: 63%;
+    }
     .portfolioPage > div > img {
         max-width: 318px;
     }
