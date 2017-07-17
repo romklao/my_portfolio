@@ -56,7 +56,7 @@ Part time, Administrative Assistant, International Tax, 2008 - 2010
 Web Development Intensive
 
 - Completed intensive 6 months course on full-stack JavaScript development.
-- Learned by developing the capstone projects and practiced many assignments. Mentorship is the great opportunity to learn from experienced web developers. 
+- Learned by developing the capstone projects and by doing a lot of assignments. Mentorship is the great opportunity to learn from experienced web developers. 
 
 ###### University of California, Berkeley Extension, 2014
 
