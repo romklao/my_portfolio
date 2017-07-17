@@ -155,11 +155,12 @@ a:focus {
 .welcome > div > div {
     position: fixed;
     text-align: center;
-    background: rgba(0, 0, 0, 0.2);
-    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
     top: 45%;
     left: 50%;
     transform: translateX(-50%) translatey(-50%);
+    border: 4px solid white;
+    padding: 10px 20px;
 }
 
 .welcome > div > div > p:nth-child(1) {
