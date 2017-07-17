@@ -500,16 +500,14 @@ footer > div > p {
     #landingPage > div > h1 {
         font-size: 26px;
     }
+    .welcome > div > div {
+        width: 90%;
+    }
     .welcome > div > div > p:nth-child(1) {
-        font-size: 25px;
-        width: 100%;
-        left: 57%;
+        font-size: 22px;
     }
     .welcome > div > div > p:nth-child(2) {
         font-size: 18px;
-        width: 100%;
-        top: 48%;
-        left: 63%;
     }
     .portfolioPage > div > img {
         max-width: 318px;
@@ -550,6 +548,15 @@ footer > div > p {
     }
     .portfolioBox > h3 {
         margin-top: 50px;
+    }
+    .welcome > div > div {
+        width: 50%;
+    }
+    .welcome > div > div > p:nth-child(1) {
+        font-size: 28px;
+    }
+    .welcome > div > div > p:nth-child(2) {
+        font-size: 20px;
     }
 
 }
