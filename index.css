@@ -26,15 +26,6 @@ a:focus {
     font-size: 15px;
 }
 
-/*.navbar-collapse {
-  text-align:center;
-}
-.navbar-nav {
-    display:inline-block;
-    float:none;
-    text-shadow: 3px 3px 6px #000000;
-}*/
-
 .navStart {
     background: url(images/nature.jpg) fixed no-repeat; 
     background-size: cover;
@@ -156,7 +147,7 @@ a:focus {
 .welcome > div > div {
     position: fixed;
     text-align: center;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.3);
     top: 45%;
     left: 50%;
     transform: translateX(-50%) translatey(-50%);
@@ -481,7 +472,7 @@ footer > div > p {
     padding-bottom: 2px;
 }
 
-/*------------Animetion leaves fallling-------------*/
+/*------------Animation leaves falling-------------*/
 
 .dot {
   width:27px;
