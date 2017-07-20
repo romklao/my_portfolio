@@ -68,7 +68,7 @@ International Diploma Program in International Business
 
 ###### National Institute of Development Administration, Bangkok, Thailand, 2004
 
-Master Degree in Business Economics, 2004
+Master Degree in Business Economics
 
 ###### Chiangmai University, Chiangmai, Thailand, 2002
 Bachelor Degree in Economics
