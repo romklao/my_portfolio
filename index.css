@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Poppins;        
+    font-family: Poppins;
     margin: 0;
     padding: 0;
 }
@@ -18,7 +18,7 @@ p {
 
 h1, h2, h3 {
     color: black;
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 a:focus {
@@ -32,11 +32,11 @@ a:focus {
 }
 
 .navStart {
-    background: url(images/nature.jpg) fixed no-repeat; 
+    background: url(images/nature.jpg) fixed no-repeat;
     background-size: cover;
     border-bottom: none;
     margin: 0;
-    background-image: 
+    background-image:
         linear-gradient(
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
@@ -59,7 +59,7 @@ a:focus {
 }
 
 .navLinkStart {
-    color: white; 
+    color: white;
     border-top: 5px solid transparent !important;
     font-size: 15px !important;
     font-weight: bold !important;
@@ -91,14 +91,14 @@ a:focus {
 }
 
 .activeStart {
-    color: white ; 
+    color: white ;
     background-color: transparent !important;
     font-size: 16px !important;
 }
 
 .activeScrolled {
     background-color: #00251a;
-    color: white; 
+    color: white;
     font-size: 16px !important;
 }
 
@@ -137,7 +137,7 @@ a:focus {
     height: 705px;
     margin: 0;
     overflow: hidden;
-    background-image: 
+    background-image:
         linear-gradient(
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
@@ -254,7 +254,7 @@ a:focus {
 }
 
 .skillBox > div > h3 {
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 .skillBox > div {
